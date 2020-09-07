@@ -16,14 +16,18 @@
     }
 
     .btn2{
+        display: block;
+        text-decoration: none;
         width: 288px;
         height: 48px;
         background: #00F3BB;
         font-size: 16px;
         line-height: 22px;
         font-weight: bold;
-        text-align: center;
-        border-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 13px 0px;
     }
 }
 

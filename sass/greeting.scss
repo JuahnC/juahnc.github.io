@@ -21,15 +21,19 @@
     }
 
     .btn1 {
+        display: block;
+        text-decoration: none;
         width: 288px;
-        height: 48px;
         background: #00F3BB;
         font-size: 16px;
         line-height: 22px;
+        letter-spacing: 0;
         font-weight: bold;
-        text-align: center;
-        border-style: none;
         margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0px;
     }
 }
 
@@ -43,6 +47,10 @@
         p.ad {
             margin: 0 0 36px 0;
             width: 628px;
+        }
+
+        .btn1 {
+            margin: 0;
         }
     }
 }
@@ -69,7 +77,7 @@
             font-size: 18px;
             line-height: 24px;
             width: 250px;
-            height: 52px;
+            height: 56px;
         }
 
         .btn1:hover {
@@ -99,7 +107,6 @@
 
         .btn1 {
             width: 226px;
-            height: 56px;
         }
     }
 }

@@ -14,6 +14,8 @@
         align-items: center;
 
         .topics-item {
+            display: block;
+            text-decoration: none;
             align-self: stretch;
             flex: 0 0 260px;
             display: flex;
